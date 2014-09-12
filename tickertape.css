@@ -1,0 +1,33 @@
+body, html{
+	margin: 0;
+	padding: 0;
+}
+
+#tickertape{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	height: 20px;
+	font-size: 16px;
+	font-family: 'Courier New', Courier, monospace;
+	padding: 0;
+	color: black;
+	font-weight: bold;
+	
+	white-space: nowrap;
+}
+
+#tickertape>.tape{
+	display: inline-block;
+}
+
+#tickertape>.tape>i{
+	font-style: normal;
+}
+
+#tickertape>.tape>.mark{
+	background-color: yellow;
+	text-transform: uppercase;
+} 
