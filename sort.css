@@ -8,6 +8,10 @@ html, body {
 }
 
 body{
+	padding-top: 20px;
+}
+
+body{
 	overflow: hidden;
 }
 

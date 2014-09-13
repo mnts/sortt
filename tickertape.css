@@ -15,12 +15,13 @@ body, html{
 	padding: 0;
 	color: black;
 	font-weight: bold;
-	
 	white-space: nowrap;
 }
 
 #tickertape>.tape{
 	display: inline-block;
+	background-color: rgba(211, 211, 211, 0.3);
+	border-radius: 0 0 5px 5px;
 }
 
 #tickertape>.tape>i{
@@ -30,4 +31,4 @@ body, html{
 #tickertape>.tape>.mark{
 	background-color: yellow;
 	text-transform: uppercase;
-} 
+}
